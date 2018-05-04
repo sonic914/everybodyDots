@@ -1,7 +1,7 @@
 // container 템플릿 생성시 dots 컬렉션 구독 시작
 Template.container.onCreated (function() {
     var self = this;
-    self.dotsSub = self.subscribe("dots", "MeteorSchool")
+    subl = self.subscribe("dots", "MeteorSchool") // 구독 핸들러 subl을 전역으로 저장하기
 });
 
 // container 템플릿 제거시 dots 컬렉션 구독 중지

@@ -27,8 +27,8 @@
     display: -webkit-flex;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
-    width: 200px;
-    height: 200px;
+    width: 280px;
+    height: 280px;
     margin-left: 10px;
     padding: 0;
 }
